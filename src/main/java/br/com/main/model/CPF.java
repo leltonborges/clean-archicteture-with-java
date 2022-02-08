@@ -1,18 +1,22 @@
 package br.com.main.model;
 
 public class CPF {
-    private String value;
+    private String cpf;
 
-    public CPF(String value) {
-        if(!validationCPF(value))
+    public CPF(String cpf) {
+        if(!validationCPF(cpf))
             throw new IllegalArgumentException("CPF invalid");
 
-        this.value = value;
+        this.cpf = cpf;
+    }
+
+    public String getCpf() {
+        return cpf;
     }
 
     private boolean validationCPF(String cpf){
         if(cpf == null) return false;
 
-        return cpf.matches("\\d{3}\\.\\d{3}\\.\\d{3}\\-\\d{2}");
+        return cpf.matches("\\d{3}(\\.)?\\d{3}(\\.)?\\d{3}(\\-)?\\d{2}");
     }
 }

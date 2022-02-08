@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4086ad24-4313-4b1d-82c7-4e02b9d161b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/model/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/CPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/model/CPF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,39 @@
       <recent name="br.com.main.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmailTest">
+  <component name="RunManager" selected="JUnit.CPFTest.testDeveriaCriarCPFValido">
+    <configuration name="CPFTest.testDeveriaCriarCPFValido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="School" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.main.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.main.model" />
+      <option name="MAIN_CLASS_NAME" value="br.com.main.model.CPFTest" />
+      <option name="METHOD_NAME" value="testDeveriaCriarCPFValido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPFTest.testNaoDeveriaCriarCPFInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="School" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.main.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.main.model" />
+      <option name="MAIN_CLASS_NAME" value="br.com.main.model.CPFTest" />
+      <option name="METHOD_NAME" value="testNaoDeveriaCriarCPFInvalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <extension name="coverage">
@@ -122,6 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CPFTest.testDeveriaCriarCPFValido" />
+        <item itemvalue="JUnit.CPFTest.testNaoDeveriaCriarCPFInvalid" />
         <item itemvalue="JUnit.EmailTest" />
         <item itemvalue="JUnit.EmailTest.testDeveriaCriarEmailsValidos" />
         <item itemvalue="JUnit.EmailTest.testNaoDeveriaCriarEmailsInvalidos" />
@@ -136,7 +169,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644256690774</updated>
-      <workItem from="1644256692599" duration="2955000" />
+      <workItem from="1644256692599" duration="3694000" />
     </task>
     <servers />
   </component>
