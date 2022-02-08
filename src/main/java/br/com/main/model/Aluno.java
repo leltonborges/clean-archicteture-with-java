@@ -11,6 +11,12 @@ public class Aluno {
     private Email email;
     private Set<Telefone> telefones = new HashSet<>();
 
+    public Aluno(CPF cpf, String name, Email email) {
+        this.cpf = cpf;
+        this.name = name;
+        this.email = email;
+    }
+
     public void addTelefone(String ddd, String telefone){
         this.telefones.add(new Telefone(ddd, telefone));
     }
