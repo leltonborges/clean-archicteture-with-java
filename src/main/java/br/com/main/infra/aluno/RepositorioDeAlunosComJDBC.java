@@ -40,8 +40,8 @@ public class RepositorioDeAlunosComJDBC implements RepositorioDeAlunos {
     }
 
     @Override
-    public Optional<Aluno> buscarPorCPF(CPF cpf) {
-        return Optional.empty();
+    public Aluno buscarPorCPF(CPF cpf) {
+        return null;
     }
 
     @Override
