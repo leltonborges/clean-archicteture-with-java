@@ -1,5 +1,6 @@
 package br.com.main.model;
 
+import br.com.main.aluno.CPF;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

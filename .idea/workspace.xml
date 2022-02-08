@@ -6,8 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="4086ad24-4313-4b1d-82c7-4e02b9d161b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/model/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/CPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/CPF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/FabricaDeALuno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/FabricaDeALuno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/Indicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/model/Indicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/Telefone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/main/model/CPFTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/main/model/CPFTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/main/model/EmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/main/model/EmailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/main/model/TelefoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/main/model/TelefoneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +75,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.main.aluno" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="br.com.main.model" />
     </key>
@@ -77,7 +87,7 @@
       <module name="School" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.main.model.*" />
+          <option name="PATTERN" value="br.com.main.aluno.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,7 +103,7 @@
       <module name="School" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.main.model.*" />
+          <option name="PATTERN" value="br.com.main.aluno.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,7 +119,7 @@
       <module name="School" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.main.model.*" />
+          <option name="PATTERN" value="br.com.main.aluno.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,7 +135,7 @@
       <module name="School" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.main.model.*" />
+          <option name="PATTERN" value="br.com.main.aluno.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,7 +151,7 @@
       <module name="School" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.main.model.*" />
+          <option name="PATTERN" value="br.com.main.aluno.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,7 +181,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644256690774</updated>
-      <workItem from="1644256692599" duration="5921000" />
+      <workItem from="1644256692599" duration="7863000" />
     </task>
     <servers />
   </component>

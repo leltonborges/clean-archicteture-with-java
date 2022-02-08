@@ -1,4 +1,4 @@
-package br.com.main.model;
+package br.com.main.aluno;
 
 import java.util.Set;
 
@@ -35,7 +35,7 @@ public class FabricaDeALuno {
 
    public Aluno criarAluno(){
        Aluno aluno = new Aluno(cpf,name, email);
-       this.telefones.forEach(t -> aluno.addTelefone(t));
+       this.telefones.forEach(aluno::addTelefone);
        return aluno;
    }
 

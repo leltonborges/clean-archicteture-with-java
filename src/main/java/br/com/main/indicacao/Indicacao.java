@@ -1,4 +1,6 @@
-package br.com.main.model;
+package br.com.main.indicacao;
+
+import br.com.main.aluno.Aluno;
 
 import java.time.LocalDateTime;
 

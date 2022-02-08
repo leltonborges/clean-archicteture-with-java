@@ -1,4 +1,4 @@
-package br.com.main.model;
+package br.com.main.aluno;
 
 import java.util.HashSet;
 import java.util.Set;
