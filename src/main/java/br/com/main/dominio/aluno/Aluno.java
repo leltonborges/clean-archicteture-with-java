@@ -9,6 +9,7 @@ public class Aluno {
     private CPF cpf;
     private String name;
     private Email email;
+    private String senha;
     private Set<Telefone> telefones = new HashSet<>();
 
     public Aluno(CPF cpf, String name, Email email) {
