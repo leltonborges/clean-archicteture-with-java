@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4086ad24-4313-4b1d-82c7-4e02b9d161b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/dominio/aluno/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/dominio/aluno/Aluno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -128,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644256690774</updated>
       <workItem from="1644256692599" duration="12585000" />
-      <workItem from="1644325700403" duration="12411000" />
+      <workItem from="1644325700403" duration="13635000" />
     </task>
     <servers />
   </component>

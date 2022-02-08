@@ -25,5 +25,19 @@ public class Aluno {
         this.telefones.add(telefone);
     }
 
+    public CPF getCpf() {
+        return cpf;
+    }
 
+    public String getName() {
+        return name;
+    }
+
+    public Email getEmail() {
+        return email;
+    }
+
+    public Set<Telefone> getTelefones() {
+        return telefones;
+    }
 }
