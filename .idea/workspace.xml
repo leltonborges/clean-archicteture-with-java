@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4086ad24-4313-4b1d-82c7-4e02b9d161b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/dominio/aluno/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/CPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/dominio/aluno/CPF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/dominio/aluno/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/FabricaDeALuno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/dominio/aluno/FabricaDeALuno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/dominio/aluno/Telefone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/indicacao/Indicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/dominio/indicacao/Indicacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/main/model/CPFTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/main/dominio/aluno/CPFTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/main/model/EmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/main/dominio/aluno/EmailTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/main/model/TelefoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/main/dominio/aluno/TelefoneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +17,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -137,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644256690774</updated>
       <workItem from="1644256692599" duration="12585000" />
-      <workItem from="1644325700403" duration="11120000" />
+      <workItem from="1644325700403" duration="12411000" />
     </task>
     <servers />
   </component>
