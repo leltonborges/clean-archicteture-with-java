@@ -1,6 +1,6 @@
-package br.com.main.model;
+package br.com.main.dominio.aluno;
 
-import br.com.main.aluno.Telefone;
+import br.com.main.dominio.aluno.Telefone;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

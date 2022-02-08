@@ -1,7 +1,10 @@
-package br.com.main.model;
+package br.com.main.dominio.aluno;
 
-import br.com.main.aluno.CPF;
 import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -15,7 +18,7 @@ class CPFTest {
     }
 
     @Test
-    void testDeveriaCriarCPFValido(){
+    void testDeveriaCriarCPFValido() {
         assertEquals("122.122.421-23", new CPF("122.122.421-23").getCpf());
         assertEquals("12212242123", new CPF("12212242123").getCpf());
         assertEquals("122122421-23", new CPF("122122421-23").getCpf());

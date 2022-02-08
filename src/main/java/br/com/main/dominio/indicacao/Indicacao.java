@@ -1,6 +1,6 @@
-package br.com.main.indicacao;
+package br.com.main.dominio.indicacao;
 
-import br.com.main.aluno.Aluno;
+import br.com.main.dominio.aluno.Aluno;
 
 import java.time.LocalDateTime;
 

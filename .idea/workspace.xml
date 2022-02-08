@@ -6,15 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="4086ad24-4313-4b1d-82c7-4e02b9d161b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/CPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/CPF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/FabricaDeALuno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/FabricaDeALuno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/Indicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/model/Indicacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/model/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/Telefone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/main/model/CPFTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/main/model/CPFTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/main/model/EmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/main/model/EmailTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/main/model/TelefoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/main/model/TelefoneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/dominio/aluno/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/CPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/dominio/aluno/CPF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/dominio/aluno/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/FabricaDeALuno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/dominio/aluno/FabricaDeALuno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/aluno/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/dominio/aluno/Telefone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/main/indicacao/Indicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/main/dominio/indicacao/Indicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/main/model/CPFTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/main/dominio/aluno/CPFTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/main/model/EmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/main/dominio/aluno/EmailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/main/model/TelefoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/main/dominio/aluno/TelefoneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,100 +77,54 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.main.indicacao" />
       <recent name="br.com.main.aluno" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="br.com.main.model" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.main.indicacao" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TelefoneTest.testDeveriaCriarTelefoneValidoComDDD">
+  <component name="RunManager" selected="JUnit.CPFTest.testDeveriaCriarCPFValido">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.main.dominio.aluno.Test" />
+      <module name="School" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.main.dominio.aluno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CPFTest.testDeveriaCriarCPFValido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.main.aluno.*" />
+          <option name="PATTERN" value="br.com.main.dominio.aluno.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.main.model" />
-      <option name="MAIN_CLASS_NAME" value="br.com.main.model.CPFTest" />
+      <option name="PACKAGE_NAME" value="br.com.main.dominio.aluno" />
+      <option name="MAIN_CLASS_NAME" value="br.com.main.dominio.aluno.CPFTest" />
       <option name="METHOD_NAME" value="testDeveriaCriarCPFValido" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CPFTest.testNaoDeveriaCriarCPFInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="School" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.main.aluno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.main.model" />
-      <option name="MAIN_CLASS_NAME" value="br.com.main.model.CPFTest" />
-      <option name="METHOD_NAME" value="testNaoDeveriaCriarCPFInvalid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TelefoneTest.testDeveriaCriarTelefoneValidoComDDD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="School" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.main.aluno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.main.model" />
-      <option name="MAIN_CLASS_NAME" value="br.com.main.model.TelefoneTest" />
-      <option name="METHOD_NAME" value="testDeveriaCriarTelefoneValidoComDDD" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TelefoneTest.testNaoDeveriaCriarTelefoneComDDDInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="School" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.main.aluno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.main.model" />
-      <option name="MAIN_CLASS_NAME" value="br.com.main.model.TelefoneTest" />
-      <option name="METHOD_NAME" value="testNaoDeveriaCriarTelefoneComDDDInvalido" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TelefoneTest.testNaoDeveriaCriarTelefoneComNumeroInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="School" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.main.aluno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.main.model" />
-      <option name="MAIN_CLASS_NAME" value="br.com.main.model.TelefoneTest" />
-      <option name="METHOD_NAME" value="testNaoDeveriaCriarTelefoneComNumeroInvalido" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.CPFTest.testDeveriaCriarCPFValido" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TelefoneTest.testDeveriaCriarTelefoneValidoComDDD" />
-        <item itemvalue="JUnit.TelefoneTest.testNaoDeveriaCriarTelefoneComNumeroInvalido" />
-        <item itemvalue="JUnit.TelefoneTest.testNaoDeveriaCriarTelefoneComDDDInvalido" />
         <item itemvalue="JUnit.CPFTest.testDeveriaCriarCPFValido" />
-        <item itemvalue="JUnit.CPFTest.testNaoDeveriaCriarCPFInvalid" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +136,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644256690774</updated>
-      <workItem from="1644256692599" duration="7863000" />
+      <workItem from="1644256692599" duration="12585000" />
+      <workItem from="1644325700403" duration="11120000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package br.com.main.aluno;
+package br.com.main.dominio.aluno;
 
 // Value Object
 public class Email {

@@ -1,4 +1,4 @@
-package br.com.main.aluno;
+package br.com.main.dominio.aluno;
 
 import java.util.Set;
 
