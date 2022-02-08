@@ -31,5 +31,7 @@ class TelefoneTest {
         assertEquals("32", new Telefone("32", "1111-1111").getDdd());
         assertEquals("1111-1111", new Telefone("32", "1111-1111").getNumber());
         assertEquals("11111111", new Telefone("32", "11111111").getNumber());
+        assertEquals("91111-1111", new Telefone("32", "91111-1111").getNumber());
+        assertEquals("911111111", new Telefone("32", "911111111").getNumber());
     }
 }
