@@ -16,4 +16,8 @@ public class Email {
     private boolean validationEmail(String addressEmail){
         return addressEmail.matches("^[a-zA-Z0-9._]+@[a-zA-Z0-9.]+\\.[a-zA-Z0-9]{2,}$");
     }
+
+    public String getAddressEmail() {
+        return addressEmail;
+    }
 }
