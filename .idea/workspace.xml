@@ -15,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -75,13 +75,14 @@
       <recent name="br.com.main.aluno" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.main.aplicacao.aluno" />
       <recent name="br.com.main.model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.main.indicacao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MatriculaAlunoCLI">
+  <component name="RunManager" selected="JUnit.MatriculaAlunoTest.testAlunoDeveriaSerPersistido">
     <configuration name="MatriculaAlunoCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.main.MatriculaAlunoCLI" />
       <module name="School" />
@@ -124,13 +125,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MatriculaAlunoTest.testAlunoDeveriaSerPersistido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="School" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.main.aplicacao.aluno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.main.aplicacao.aluno" />
+      <option name="MAIN_CLASS_NAME" value="br.com.main.aplicacao.aluno.MatriculaAlunoTest" />
+      <option name="METHOD_NAME" value="testAlunoDeveriaSerPersistido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.CPFTest.testDeveriaCriarCPFValido" />
       <item itemvalue="Application.MatriculaAlunoCLI" />
+      <item itemvalue="JUnit.CPFTest.testDeveriaCriarCPFValido" />
+      <item itemvalue="JUnit.MatriculaAlunoTest.testAlunoDeveriaSerPersistido" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MatriculaAlunoTest.testAlunoDeveriaSerPersistido" />
         <item itemvalue="Application.MatriculaAlunoCLI" />
         <item itemvalue="JUnit.CPFTest.testDeveriaCriarCPFValido" />
         <item itemvalue="Application.Test" />
@@ -147,7 +166,7 @@
       <updated>1644256690774</updated>
       <workItem from="1644256692599" duration="12585000" />
       <workItem from="1644325700403" duration="16355000" />
-      <workItem from="1644434468135" duration="2232000" />
+      <workItem from="1644434468135" duration="2623000" />
     </task>
     <servers />
   </component>
